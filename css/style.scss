@@ -2489,18 +2489,19 @@ section#contact{
     }
 
     >p{
-      display: flex;
-      align-items: center;
+      // display: flex;
+      // align-items: center;
       height: 100px;
       margin-top: 50px;
+      padding: 30px 0 0;
       color: #505050;
       font-size: 14px;
       line-height: 32px;
       padding-left: 70px;
       background-color: #f8f8f8;
-      background-image: url(../images/contact/thank.png);
-      background-position: 95% 60%;
-      background-repeat: no-repeat;
+      // background-image: url(../images/contact/thank.png);
+      // background-position: 95% 60%;
+      // background-repeat: no-repeat;
 
       @media #{$mobile}{
         width: 100%;
@@ -2511,6 +2512,13 @@ section#contact{
         text-align: center;
         background-image: none;
         box-sizing: border-box;
+
+        >span{
+          display: block;
+          >span{
+            display: block;
+          }
+        }
       }
     }//end of p
   }//end of .apply
